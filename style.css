@@ -1,0 +1,88 @@
+html, body{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #F9F9F9;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    transition: background 0.5s;
+    height: 50px;
+}
+
+h2{
+    color: #000000ee;
+    margin-bottom: 16px;
+}
+
+.logo{
+    width: 80%;
+    margin: 70px 0;
+}
+
+/*ESTRUTURAS*/
+header, footer{
+    text-align: center;
+}
+
+header{
+    margin:0 auto 70px;
+    
+    width: 90%;
+    max-width: 500px;
+
+}
+
+header button{
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+
+    background-color: #FF7E00;
+    border: none;
+
+    color: white;
+
+    font-weight: bolder;
+}
+
+header button:hover{
+    background-color: #dd740b;
+    border: none;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: auto;
+
+    padding: 16px;
+
+    border-top: 1px solid #eee;
+}
+
+footer a{
+    color: #000000ee;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:  #FF7E00;
+    opacity: 0.7;
+    font-weight: bold;
+
+    text-decoration: none;
+}
